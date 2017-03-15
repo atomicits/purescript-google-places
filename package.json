@@ -1,0 +1,12 @@
+{
+  "name": "purescript-rnx-google-places",
+  "version": "1.0.0",
+  "description": "Purescript wrapper for react-native-google-places",
+  "main": "index.js",
+  "repository": "atomicits/purescript-google-places",
+  "author": "Sathish Kumar <sathish.s@atomicits.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-google-places": "^2.0.9"
+  }
+}
