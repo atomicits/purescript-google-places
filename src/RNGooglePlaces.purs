@@ -31,7 +31,7 @@ type Query =
   , radius     :: Number
   }
 
-newtype PlaceId = PlaceId String
+newtype PlaceId = PlaceId  String
 
 type ResponseModal  =
   { placeID     :: String
@@ -90,4 +90,4 @@ getautocompletePredictions :: forall eff. Query -> Aff eff (Either Error Autocom
 getautocompletePredictions opt = attempt $ makeAff (\error success -> _getAutocompletePredictions opt success error)
 
 lookUpPlaceByID :: forall eff. PlaceId -> Aff eff (Either Error ResponseModal)
-lookUpPlaceByID (PlaceId opt) = attempt $ makeAff (\error success -> _lookUpPlaceByID (PlaceId opt) success error)
+lookUpPlaceByID opt = attempt $ makeAff (\error success -> _lookUpPlaceByID  opt success error)
