@@ -1,0 +1,26 @@
+{
+    "name": "purescript-rnx-google-places",
+    "description": "Purescript wrapper for react-native-google-places",
+    "main": "index.js",
+    "authors": "Sathish Kumar <sathish.s@atomicits.com>",
+    "license": "MIT",
+    "keywords": [
+        "purescript",
+        "rnx",
+        "react-native",
+        "google-places"
+    ],
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "purescript-rnx" : "^0.1.2-alpha",
+        "purescript-react": "^2.0.0"
+    }
+}
